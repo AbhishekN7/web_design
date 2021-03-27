@@ -1,0 +1,120 @@
+body {
+    font-family: 'Patua One', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url("BG.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.left {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+}
+
+.left img {
+    display: block;
+    margin: 2px auto;
+    width: 75px;
+}
+
+.left div {
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    color: black;
+}
+
+.mid {
+    display: block;
+    color: rgb(102, 51, 51);
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+.right {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+}
+
+.navbar {
+    display: inline-block;
+    color: black;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 33px 30px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    font-family: 'Patua One', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 1px 13px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(128, 111, 128);
+    text-decoration: none;
+}
+
+.container {
+    position: absolute;
+    top: 142px;
+    right: 25px;
+    margin: 10px 15px;
+    padding: 48px 29px;
+    width: 25%;
+    border-radius: 8px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 71%;
+    padding: 2px;
+    margin: 3px auto;
+    border-radius: 7px;
+}
+
+.container h1 {
+    text-align: center;
+    color: black;
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: 0px auto;
+}
+
+#gender {
+    text-align: center;
+
+
+}
